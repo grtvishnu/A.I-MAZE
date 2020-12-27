@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{282667C8-B349-8AE4-52C4-C37EA8E3FE28}</ProjectGuid>
+    <ProjectGuid>{F907E1EC-7ADD-395E-7B94-FA83E3236467}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FollowPlayer.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -594,40 +595,40 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/optra/Documents/GitHub/A.I-MAZE/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/optra/Documents/GitHub/Maze_Big/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/optra/Documents/GitHub/A.I-MAZE/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/optra/Documents/GitHub/Maze_Big/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/optra/Documents/GitHub/A.I-MAZE/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/optra/Documents/GitHub/Maze_Big/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/optra/Documents/GitHub/A.I-MAZE/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/optra/Documents/GitHub/Maze_Big/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/optra/Documents/GitHub/A.I-MAZE/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/optra/Documents/GitHub/Maze_Big/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/optra/Documents/GitHub/A.I-MAZE/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/optra/Documents/GitHub/Maze_Big/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/optra/Documents/GitHub/A.I-MAZE/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/optra/Documents/GitHub/Maze_Big/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/optra/Documents/GitHub/A.I-MAZE/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/optra/Documents/GitHub/Maze_Big/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/optra/Documents/GitHub/A.I-MAZE/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/optra/Documents/GitHub/Maze_Big/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
-      <Project>{165E1729-7554-DBF9-0E6A-6A47293839D9}</Project>
+      <Project>{52C68B27-4AFA-E0F3-AFD6-2C887D930BBB}</Project>
       <Name>NavMeshComponentsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
-      <Project>{264B284B-4F12-C5A9-DAAD-0AB0C73A3911}</Project>
+      <Project>{5CC23F63-F5E5-44F5-DB7C-DC1D3529CA4D}</Project>
       <Name>NavMeshComponents</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{264B284B-4F12-C5A9-DAAD-0AB0C73A3911}</ProjectGuid>
+    <ProjectGuid>{5CC23F63-F5E5-44F5-DB7C-DC1D3529CA4D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>NavMeshComponents</AssemblyName>
@@ -613,10 +613,10 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/optra/Documents/GitHub/A.I-MAZE/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/optra/Documents/GitHub/Maze_Big/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/optra/Documents/GitHub/A.I-MAZE/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/optra/Documents/GitHub/Maze_Big/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

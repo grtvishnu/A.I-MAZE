@@ -1,16 +1,16 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
+using UnityStandardAssets.Characters.ThirdPerson;
 
 public class PlayerController : MonoBehaviour
 {
     public Camera cam;
     public NavMeshAgent agent;
-    public Animator anim;
-    float motionSmoothTime = .1f;
+    public ThirdPersonCharacter character;
 
     private void Start()
     {
-        agent = gameObject.GetComponent<NavMeshAgent>() 
+        agent.updateRotation = false;
     }
 
     void Update()
@@ -28,7 +28,14 @@ public class PlayerController : MonoBehaviour
             }
 
         }
-        float speed = agent.velocity.magnitude / agent.speed;
-        anim.SetFloat("Speed", speed, motionSmoothTime, Time.deltaTime);
+        if (agent.remainingDistance > agent.stoppingDistance)
+        {
+            character.Move(agent.desiredVelocity, false, false);
+        }
+        else
+        {
+            character.Move(Vector3.zero, false, false);
+        }
+
     }
 }

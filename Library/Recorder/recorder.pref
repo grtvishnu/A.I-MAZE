@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Global Settings
   m_EditorClassIdentifier: 
   m_RecordMode: 0
-  m_FrameRatePlayback: 0
-  m_FrameRateType: 4
+  m_FrameRatePlayback: 1
+  m_FrameRateType: 0
   m_CustomFrameRateValue: 30
   m_StartFrame: 0
   m_EndFrame: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
   m_Name: Movie
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 2
+  take: 19
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -45,15 +45,15 @@ MonoBehaviour:
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
     m_FileName: movie_<Take>
-  outputFormat: 0
+  outputFormat: 1
   videoBitRateMode: 2
   captureAlpha: 0
-  containerFormatSelected: 0
-  encoderSelected: 0
+  containerFormatSelected: 2
+  encoderSelected: 1
   encoderPresetSelected: 0
-  encoderPresetSelectedName: 
+  encoderPresetSelectedName: Apple ProRes 4444 XQ (ap4x)
   encoderPresetSelectedOptions: 
-  encoderPresetSelectedSuffixes: 
+  encoderPresetSelectedSuffixes: .mov
   encoderColorDefinitionSelected: 0
   encoderCustomOptions: 
   m_ImageInputSelector:
@@ -62,8 +62,8 @@ MonoBehaviour:
       m_OutputResolution:
         m_CustomWidth: 1024
         m_CustomHeight: 1024
-        imageHeight: 0
-        maxSupportedHeight: 2160
+        imageHeight: 1080
+        maxSupportedHeight: 4320
         m_AspectRatio:
           m_CustomAspectX: 1
           m_CustomAspectY: 1

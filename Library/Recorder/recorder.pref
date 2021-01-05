@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Global Settings
   m_EditorClassIdentifier: 
   m_RecordMode: 0
-  m_FrameRatePlayback: 1
+  m_FrameRatePlayback: 0
   m_FrameRateType: 0
   m_CustomFrameRateValue: 30
   m_StartFrame: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
   m_Name: Movie
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 19
+  take: 25
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -62,7 +62,7 @@ MonoBehaviour:
       m_OutputResolution:
         m_CustomWidth: 1024
         m_CustomHeight: 1024
-        imageHeight: 1080
+        imageHeight: 1440
         maxSupportedHeight: 4320
         m_AspectRatio:
           m_CustomAspectX: 1

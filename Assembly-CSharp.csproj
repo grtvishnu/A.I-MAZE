@@ -67,6 +67,7 @@
     <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\Example05 - LowMan\LowMan\Scripts\ThirdPersonCharacter.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.3\Cinemachine Example Scenes\Scenes\3rdPersonWithAimMode\ActivateOnKeypress.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.3\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerLookAt.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.3\Cinemachine Example Scenes\Scenes\Anywhere Door\PlayerMovement.cs" />
@@ -89,8 +90,11 @@
     <Compile Include="Assets\Samples\Cinemachine\2.6.3\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.3\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
     <Compile Include="Assets\Samples\Cinemachine\2.6.3\Cinemachine Example Scenes\Shared\Scripts\SpawnInCircle.cs" />
+    <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM2.shader" />
     <None Include="Assets\Fantasy Chess RPG Character - Arthur\readme.txt" />
+    <None Include="Assets\Rocks and Boulders 2\Shaders\Blend SM3.shader" />
     <None Include="Assets\Samples\Cinemachine\2.6.3\Cinemachine Example Scenes\Scenes\Anywhere Door\ScreenCutoutShader.shader" />
+    <None Include="Assets\Rocks and Boulders 2\Shaders\shader info.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

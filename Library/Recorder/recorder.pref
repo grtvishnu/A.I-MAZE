@@ -36,7 +36,7 @@ MonoBehaviour:
   m_Name: Movie
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 5
+  take: 39
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -50,8 +50,8 @@ MonoBehaviour:
   captureAlpha: 0
   containerFormatSelected: 2
   encoderSelected: 1
-  encoderPresetSelected: 1
-  encoderPresetSelectedName: Apple ProRes 4444 (ap4h)
+  encoderPresetSelected: 0
+  encoderPresetSelectedName: Apple ProRes 4444 XQ (ap4x)
   encoderPresetSelectedOptions: 
   encoderPresetSelectedSuffixes: .mov
   encoderColorDefinitionSelected: 0
